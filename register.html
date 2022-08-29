@@ -10,9 +10,56 @@
   <body>
     <div class="container">
       <div class="card">
-        <div class="content">
+        <div class="top-content">
           <h1>Create your Account</h1>
-          <form action="#"></form>
+          <p>You must create and account to gain access</p>
+          <div class="forms">
+            <form action="#">
+              <div class="input-field">
+                <label for="username">Username</label><br />
+                <input
+                  type="text"
+                  placeholder="Enter your username"
+                  required
+                  name="username"
+                /><br />
+              </div>
+              <div class="input-field">
+                <label for="email">Email</label><br />
+                <input
+                  type="text"
+                  placeholder="Enter your email address"
+                  required
+                  name="email"
+                /><br />
+              </div>
+              <div class="input-field">
+                <label for="password">Password</label><br />
+                <input
+                  type="password"
+                  placeholder="Enter your password"
+                  required
+                  name="password"
+                /><br />
+              </div>
+              <div class="input-field">
+                <label for="repeat">Repeat password</label><br />
+                <input
+                  type="password"
+                  placeholder="Repeat your password"
+                  required
+                  name="repeat"
+                /><br />
+                <div class="button">
+                  <input type="button" value="Sign up" />
+                </div>
+                <p class="text">
+                  Already have an account?
+                  <a href="signup.html">Sign in</a>
+                </p>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
