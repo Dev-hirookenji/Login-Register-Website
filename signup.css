@@ -95,6 +95,7 @@ label {
 .forgot:hover {
   color: #047cfb;
   transition: 0.3s;
+  text-decoration: underline;
 }
 .forgot:active {
   color: #00499c;
@@ -114,6 +115,8 @@ label {
 }
 .buttons input[type="button"]:hover {
   background-color: #0a437f;
+  transition: 0.3s;
+  cursor: pointer;
 }
 .buttons input[type="button"]:active {
   background-color: #00499c;
@@ -125,14 +128,15 @@ label {
   color: rgb(70, 70, 70);
   text-decoration: none;
 }
-.sign {
+.buttons .sign {
   text-decoration: none;
   color: #00499c;
 }
-.sign:hover {
+.buttons .sign:hover {
   color: #047cfb;
   transition: 0.3s;
+  text-decoration: underline;
 }
-.sign:active {
+.buttons .sign:active {
   color: #00499c;
 }
