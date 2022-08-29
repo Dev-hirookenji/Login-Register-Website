@@ -45,7 +45,7 @@ body {
   padding-top: 30px;
   align-items: center;
   justify-items: center;
-  color: #292176;
+  color: #202124;
 }
 .top-content h1 {
   font-size: 21px;
@@ -76,6 +76,7 @@ body {
 }
 .button {
   padding-top: 25px;
+  color: #202124;
 }
 .button input[type="button"]:hover {
   background-image: linear-gradient(to right, #5099fe, #a86cff);
@@ -88,10 +89,10 @@ body {
   text-decoration: none;
 }
 a {
-  color: #fffffe;
+  color: #202124;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-  color: #5c92ff;
+  color: #292176;
 }
