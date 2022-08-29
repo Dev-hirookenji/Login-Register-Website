@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--CSS link-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="signup.css" />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <img src="./Resources/signup.jpg" />
+      </div>
+      <div class="right-container">
+        <p class="header">Hello There!</p>
+        <p class="subheader">Welcome! Please enter your details to continue.</p>
+        <div class="forms">
+          <form action="#">
+            <div class="input-field">
+              <label for="email">Email</label><br />
+              <input
+                type="text"
+                placeholder="Enter your email"
+                required
+                name="email"
+              />
+            </div>
+            <div class="input-field">
+              <label for="pass">Password</label><br />
+              <input
+                type="password"
+                placeholder="Enter your password"
+                required
+                name="pass"
+              />
+            </div>
+            <div class="check">
+                <div class="check-content">
+                  <input type="checkbox" name="remember" />
+                  <label for="remember">Remember me</label>
+                </div>
+                  <a href="#" class="forgot">Forgot Password</a>
+              </div>
+              <div class="buttons">
+                <div class="signin">
+                  <input type="button" value="Sign in">
+                </div>
+                <div class="signup">
+                  <p>Don't have an account? <a class="sign"href="#">Sign up</a></p>  
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
